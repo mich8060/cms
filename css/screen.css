@@ -190,7 +190,7 @@ p img {
 .ui-tabs { display:inline-block; }
 	.ui-tabs li { float:left; }
 	.ui-tabs a { color:#999; display:block; font-weight:500; padding:10px 15px; }
-	.ui-tabs a.selected { color:#222; }
+	.ui-tabs a.selected { font-weight:500; color:#222; }
 	
 /* UI Notification Styles */
 
