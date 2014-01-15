@@ -1,0 +1,203 @@
+html { display:block; font-size:16px; }
+body { height:100%; background:#fff; font: 300 100%/24px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+article { position:relative; }
+nav { background:#222; color:#fff; min-height:675px; padding:20px 15px; position:fixed; bottom:0px; left:0px; top:0px; z-index:99; }
+	nav a { border-radius:3px; color:#fff; display:block; font-size:12px; padding:50px 0 0 0; margin:0 0 20px 0; text-align:center; }
+	nav a.selected { background:#000; }
+	nav a.profile { border-radius:75px; margin:0 auto; overflow:hidden; padding:0; width:60px;}
+menu { background:#f0f0f0; min-height:675px; padding:50px 40px; }
+	menu h3 { margin:0; }
+	menu p { margin:0; padding:0; }
+	menu ul { margin:20px -40px; }
+		menu ul a { color:#222; display:block; padding:5px 40px; }
+			menu ul a.selected { background:#f9f9f9; }
+#content { height:100%; padding:15px 50px; position:relative; }
+	.content-container { padding:0 50px; position:absolute; top:110px; left:0px; right:0px; bottom:0px; }
+
+.intro { }
+	.intro h1 { margin:0 40px 0 0; display:inline-block; }
+	.intro .ui-tabs { position:relative; top:16px; }
+	.intro .ui-button { float:right; margin-top:16px;  }
+
+/* Basic Typography */
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    /* Retina-specific body weights & smoothing */
+	body {
+		-webkit-font-smoothing: antialiased; 
+				font-smoothing: antialiased;
+	}
+}
+
+/* Headline */
+
+h1, h2, h3, h4, h5 { margin:0; }
+
+h1 { font-size:36px; line-height:44px; }
+h2 { font-size:30px; line-height:36px; }
+h3 { font-size:24px; line-height:36px; }
+h4 { font-size:18px; line-height:24px; }
+h5 { font-size:16px; line-height:26px; }
+
+h1.lead { font-size:48px; }
+h2.lead { font-size:36px; }
+h3.lead { font-size:30px; }
+h4.lead { font-size:24px; }
+h4.lead { font-size:18px; }
+
+.light { font-weight:400; }
+
+
+/* Hyperlinks */
+
+a { 
+	color: #0072BC; 
+	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+ 	-webkit-transition: color 0.3s ease;
+	   -moz-transition: color 0.3s ease;	
+			transition: color 0.3s ease;
+}
+	a:hover { color: #004A80; }
+	
+	a[href^="http://"]:not([href*="localhost:8888"])::after {
+		background:url(../img/layout/initstudio_external_link.png);
+		background-size:10px 10px;
+		content: "";
+		display:inline-block;
+		width:10px;
+		height:10px;
+		margin:0 3px;
+	}
+
+/* Paragraphs */
+
+p { 
+	font-weight:500;
+	margin:20px 0;
+	overflow:hidden;
+}
+
+p:before, p:after { 
+	content: ""; 
+	display: block; 
+	height: 0px; 
+	margin: 0px;
+}
+
+p a {
+    margin: -.5em;
+    padding: .5em;
+    position: relative;
+}
+
+.paragraph-lead {
+	font-size:20px;
+	line-height:28px;
+}
+
+.paragraph-hint {
+	font-size:12px;
+	line-height:16px;
+	-webkit-font-smoothing: subpixel-antialiased; 
+			font-smoothing: subpixel-antialiased;
+}
+
+strong { 
+	font-weight:800;
+}
+abbr { 
+	border-bottom:dotted 1px #ccc; 
+	cursor:pointer;
+}
+blockquote { 
+	color:#222;
+	font-style:italic;
+	font-size:20px;
+	line-height:24px;
+	margin:30px 0;
+	padding:2px 0 2px 2.0em;
+	position:relative;
+	quotes: "\201C" "\201D";
+}
+blockquote:before { 
+	color:#222;
+	content: open-quote; 
+	font: italic 100%/60% 'Playfair Display', Georgia, Serif;
+	font-size:72px;
+	font-style:normal;
+	left:0px;
+	position:absolute;
+	width:0px;
+} 
+address {
+	line-height:20px;
+	margin:20px 0;
+}
+
+pre {
+	background: #222 url(../img/layout/initstudio_presentation_bg.jpg);
+	background: -webkit-linear-gradient(45deg, #222,#2f3031);
+	background: -moz-linear-gradient(45deg, #222,#2f3031);
+	background: -o-linear-gradient(45deg, #222,#2f3031);
+	background: linear-gradient(45deg, #222,#2f3031);
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+			border-radius:3px;
+	margin:20px 0;
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+/* Hard Line */
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	margin: 20px -30px;
+}
+
+/* Images */
+img { 
+	width:100%;
+	-ms-interpolation-mode: bicubic;
+}
+
+p img {
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+			border-radius:3px;
+}
+
+/* Mozilla based browsers */
+::-moz-selection {
+       background-color: #EEE;
+       color: #222;
+}
+
+/* Works in Safari */
+::selection {
+       background-color: #EEE;
+       color: #222;
+}
+
+/* UI Tab Styles */
+
+.ui-tabs { display:inline-block; }
+	.ui-tabs li { float:left; }
+	.ui-tabs a { color:#999; display:block; font-weight:500; padding:10px 15px; }
+	.ui-tabs a.selected { color:#222; }
+	
+/* UI Notification Styles */
+
+.ui-notification { background:#222; border-radius:3px; color:#fff; display:inline-block; font-size:10px; font-weight:bold; line-height:18px; margin:0 5px 0 0; padding:0 5px; position:relative; top:-1px; }
+	
+	
+/* UI Button Styles */
+
+.ui-button { background:#222; border-radius:50px; color:#fff; display:inline-block; line-height:40px; padding:0 20px; }
+	

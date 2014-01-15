@@ -1,0 +1,73 @@
+Needs to be able to compose emails.
+Wants to write blogs entries
+Needs to be able to manage media assets
+
+
+Dashboard
+	Content
+		Posts
+		Pages
+		Categories
+		Tags
+	Discussion
+		Comments
+		Pending
+		Approved
+		Flagged
+	Recent Drafts
+		-LIST
+	Recent Comments
+Posts
+	- Articles
+	- Categories
+	- Tags
+Media
+Pages
+Comments
+Users
+Administrators
+Messages
+	- Email Templates
+
+
+Administrators
+Developers
+	- Tokens
+	- Services
+
+Services Needed:
+
+Administrator - Token Protected
+	Read
+	Create
+	Remove
+	Edit
+Users - Token Protected
+	Read
+	Create
+	Remove
+	Edit
+Media (Photos, Youtube Videos, ) - Token Protected
+	Read
+	Create
+	Remove
+	Edit
+Comments
+	Read
+	Create
+	Remove - Token Protected
+	Edit (Includes acceptances, rejection)
+Pages - Token Protected
+	Read
+	Edit
+	Create - Seperate Template Related
+Posts
+	Read
+	Create - Token Protected
+	Edit - (Include ablity to change status - Publish, Save, Etc.) Token Protected
+	Delete - Token Protected
+Tokens - Token Protected
+	Read
+	Create
+	Delete
+Email
