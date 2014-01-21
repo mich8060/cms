@@ -6,7 +6,7 @@
 
 *, *:before, *:after { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; text-rendering:optimizeLegibility; -webkit-text-rendering:optimizeLegibility; -moz-text-rendering:optimizeLegibility; }
 
-.container { background:#f9f9f9; width:1280px; }
+.container { background:#f9f9f9; width:960px; }
 
 .boxgrid { clear:both; width:100%; }
 

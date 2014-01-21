@@ -18,16 +18,20 @@ Dashboard
 		-LIST
 	Recent Comments
 Posts
+	- Pages
 	- Articles
+	- Comments
 	- Categories
 	- Tags
+	- Email
 Media
-Pages
-Comments
-Users
-Administrators
-Messages
-	- Email Templates
+	- Photos
+	- Videos
+Account
+	- Users
+	- Administrators
+	- Developers
+	- Mailing List
 
 
 Administrators
