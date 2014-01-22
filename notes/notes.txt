@@ -2,7 +2,6 @@ Needs to be able to compose emails.
 Wants to write blogs entries
 Needs to be able to manage media assets
 
-
 Dashboard
 	Content
 		Posts
@@ -30,7 +29,6 @@ Media
 Account
 	- Users
 	- Administrators
-	- Developers
 	- Mailing List
 
 

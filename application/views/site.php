@@ -44,7 +44,7 @@
 						<a href="#" class="ui-button">Save Changes</a>
 					</div>
 					<div class="content-container">
-						Content
+						<?php echo md5('avarice'); ?>
 					</div>
 				</div>
 			</div>
